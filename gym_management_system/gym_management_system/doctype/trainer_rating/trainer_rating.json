@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{trainer}-{#####}",
+ "creation": "2023-08-24 10:53:29.313011",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_membership",
+  "trainer",
+  "column_break_vtwa2",
+  "rating"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_membership",
+   "fieldtype": "Link",
+   "label": "Gym Membership",
+   "options": "Gym Membership"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Gym Trainer"
+  },
+  {
+   "fieldname": "column_break_vtwa2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-24 17:52:17.464507",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Trainer Rating",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

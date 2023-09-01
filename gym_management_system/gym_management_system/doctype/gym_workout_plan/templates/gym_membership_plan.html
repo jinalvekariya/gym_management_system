@@ -1,0 +1,20 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+
+{% set image_alt = "{} Image".format(plan_name) %}
+<img class="rounded mx-auto d-block" src="{{ image }}" alt="{{ plan_name }}" title="{{ plan_name }}">
+
+<div class="text-center mt-5">
+    <h4>Monthly Price: {{ monthly_price }}</h4>
+    <h4>Annual Price: {{ annual_price }}</h4>
+
+    <h4>Plan Details</h4>
+    <p>{{ plan_details }}</p>
+    
+    <a class="btn btn-primary" href="/"> Choose Plan </a>
+</div>
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

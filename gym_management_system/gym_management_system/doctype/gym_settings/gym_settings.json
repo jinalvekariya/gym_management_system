@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-24 11:04:43.100600",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trainer_limit",
+  "locker_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "trainer_limit",
+   "fieldtype": "Int",
+   "label": "Trainer Limit"
+  },
+  {
+   "fieldname": "locker_limit",
+   "fieldtype": "Int",
+   "label": "Locker Limit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-29 16:23:54.167789",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

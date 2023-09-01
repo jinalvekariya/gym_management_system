@@ -1,0 +1,14 @@
+<div class="d-inline-flex">
+	<div class="col-xl-3 col-lg-6 col-sm-6">
+	<div class="card" style="width:18rem;">
+		<img class="card-img-top" src="{{ doc.image }}" alt="{{ doc.plan_name }}">
+		<div class="card-body">
+			<h5 class="card-title">{{ doc.plan_name }}</h5>
+			<p class="card-title">Monthly Price: {{ doc.monthly_price }}</p>
+			<a href="/mbr/{{ doc.name }}" class="btn btn-primary"> See Details </a>
+		</div>
+	</div>
+	</div>
+	<!-- <a href="{{ doc.route }}">{{ doc.title or doc.name }}</a>  -->
+</div>
+

@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{class_type}-{####}",
+ "creation": "2023-08-24 11:01:45.678006",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "class_type",
+  "select_day",
+  "class_time",
+  "gym_trainer"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Link",
+   "label": "Full Name",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "class_type",
+   "fieldtype": "Select",
+   "label": "Class Type",
+   "options": "\nCardio Training\nYoga Training\nBody Building Training"
+  },
+  {
+   "fieldname": "select_day",
+   "fieldtype": "Select",
+   "label": "Select Day",
+   "options": "\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "class_time",
+   "fieldtype": "Select",
+   "label": "Class Time",
+   "options": "\n2 PM\n4 PM\n6 PM"
+  },
+  {
+   "fieldname": "gym_trainer",
+   "fieldtype": "Link",
+   "label": "Gym Trainer",
+   "options": "Gym Trainer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-29 16:37:07.898343",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Group Class",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Trainer",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
